@@ -1,3 +1,3 @@
-# mini-taijf
+# Pytania i odpowiedzi
 
-🇵🇱 Opracowanie teorii z przedmiotu Teoria Automatów i Języków Formalnych
+Opracowanie teorii z przedmiotu Teoria Automatów i Języków Formalnych.
