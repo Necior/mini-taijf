@@ -1,0 +1,2 @@
+Na Debianie i pochodnych powinny wystarczyć paczki `texlive-xetex` oraz `pandoc`.
+Jeśli się okaże, że coś jeszcze, zachęcam do dodania Pull Requesta.
