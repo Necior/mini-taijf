@@ -2,6 +2,10 @@
 
 Opracowanie teorii z przedmiotu Teoria Automatów i Języków Formalnych.
 
+Gotowy PDF (aktualizowany automatycznie): [http://165.227.130.192/taijf.pdf](http://165.227.130.192/taijf.pdf).
+
+Aktualna wersja tego dokumentu dostępna pod [https://github.com/Necior/mini-taijf](https://github.com/Necior/mini-taijf).
+
 ## Wiadomości wstępne
 
 Q: **Podaj definicję alfabetu**.
