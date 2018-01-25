@@ -69,6 +69,10 @@ A: _Gramatyką_ nazywamy system \(G = (V, T, P, S)\), gdzie:
 * \(P\) -- skończony zbiór reguł wywodu (produkcji);
 * \(S\) -- symbol początkowy gramatyki, przy czym \(S \in V\).
 
+    Q: **Jak zdefiniowane są produkcje**?
+
+    A: Przez pojęcie produkcji rozumiemy parę słów: \((\alpha, \beta) \in (V \cup T)^+ \times (V \cup T)^*\).
+
 Q: **Podaj definicję wywodu bezpośredniego**.
 
 A: Jest to relacja taka, że dwa słowa pozostają w relacji wtedy i tylko wtedy, gdy drugie słowo otrzymano z pierwszego poprzez zastosowanie produkcji dla pewnego fragmentu pierwszego słowa.
