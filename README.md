@@ -26,6 +26,28 @@ Q: **Podaj definicję języka nad alfabetem**.
 
 A: Dowolny zbiór \(L\) będący podzbiorem \(\Sigma^\star\), \(L \subset \Sigma^\star\). Język jest skończony \(\Leftrightarrow\) istnieje ograniczenie długości słów tego języka.
 
+Q: **Podaj definicję konkatencji języków**.
+
+A: Konkatenację języków \(L_1\) i \(L_2\) definiujemy jako konkatenację par słów z obu języków:
+
+\[L_1 \circ L_2 = \{uv: u \in L_1, v \in L_2\}\]
+
+Można przyjąć, że alfabetem języka wyjściowego jest sumą teoriomnogościową alfabetów łączonych.
+
+Q: **Podaj definicję wielokrotnej konkatenacji języka**.
+
+A: Wielokrotną konkatenację języka \(L\) ze sobą definiujemy następująco (indukcyjnie):
+
+\[L^0 = \{\varepsilon\}, \quad L^n = L^{n-1} \circ L\]
+
+Q: **Podaj definicję operatora Kleene'ego (operacji gwiazdka)**.
+
+A:
+
+\[L^* = \bigcup_{k=0}^{\infty} L^k\]
+
+Tak powstały język nazywamy _językiem Kleene'ego_.
+
 Q: **Podaj definicję relacji prawostronnie niezmienniczej**.
 
 A: Relację \(R \subset \Sigma^* \times \Sigma^*\) nazywamy _prawostronnie niezmienniczą_ wtedy i tylko wtedy, gdy
@@ -58,25 +80,3 @@ A: Wywodem w gramatyce nazywamy przechodnie domknięcie relacji wywodu bezpośre
 Q: **Podaj definicję języka generowanego przez gramatykę**.
 
 A: Jest to zbiór słów nad alfabetem terminali, które pozostają w relacji wywodu z symbolu początkowego gramatyki.
-
-Q: **Podaj definicję konkatencji języków**.
-
-A: Konkatenację języków \(L_1\) i \(L_2\) definiujemy jako konkatenację par słów z obu języków:
-
-\[L_1 \circ L_2 = \{uv: u \in L_1, v \in L_2\}\]
-
-Można przyjąć, że alfabetem języka wyjściowego jest sumą teoriomnogościową alfabetów łączonych.
-
-Q: **Podaj definicję wielokrotnej konkatenacji języka**.
-
-A: Wielokrotną konkatenację języka \(L\) ze sobą definiujemy następująco (indukcyjnie):
-
-\[L^0 = \{\varepsilon\}, \quad L^n = L^{n-1} \circ L\]
-
-Q: **Podaj definicję operatora Kleene'ego (operacji gwiazdka)**.
-
-A:
-
-\[L^* = \bigcup_{k=0}^{\infty} L^k\]
-
-Tak powstały język nazywamy _językiem Kleene'ego_.
