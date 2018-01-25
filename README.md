@@ -66,3 +66,17 @@ A: Konkatenację języków \(L_1\) i \(L_2\) definiujemy jako konkatenację par 
 \[L_1 \circ L_2 = \{uv: u \in L_1, v \in L_2\}\]
 
 Można przyjąć, że alfabetem języka wyjściowego jest sumą teoriomnogościową alfabetów łączonych.
+
+Q: **Podaj definicję wielokrotnej konkatenacji języka**.
+
+A: Wielokrotną konkatenację języka \(L\) ze sobą definiujemy następująco (indukcyjnie):
+
+\[L^0 = \{\varepsilon\}, \quad L^n = L^{n-1} \circ L\]
+
+Q: **Podaj definicję operatora Kleene'ego (operacji gwiazdka)**.
+
+A:
+
+\[L^* = \bigcup_{k=0}^{\infty} L^k\]
+
+Tak powstały język nazywamy _językiem Kleene'ego_.
