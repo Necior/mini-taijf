@@ -18,6 +18,10 @@ Q: **Podaj definicję słowa nad alfabetem**.
 
 A: Jest to skończony ciąg elementów z alfabetu (\(\Sigma\)). Symbolem \(\varepsilon\) oznaczamy ciąg pusty i nazywamy _słowem pustym_.
 
+Q: **Poda definicję długości słowa**.
+
+A: Długością słowa nazywamy długość ciągu symboli (liczbę liter alfabetu w słowie).
+
 Q: **Podaj definicję języka nad alfabetem**.
 
 A: Dowolny zbiór \(L\) będący podzbiorem \(\Sigma^\star\), \(L \subset \Sigma^\star\). Język jest skończony \(\Leftrightarrow\) istnieje ograniczenie długości słów tego języka.
@@ -54,3 +58,11 @@ A: Wywodem w gramatyce nazywamy przechodnie domknięcie relacji wywodu bezpośre
 Q: **Podaj definicję języka generowanego przez gramatykę**.
 
 A: Jest to zbiór słów nad alfabetem terminali, które pozostają w relacji wywodu z symbolu początkowego gramatyki.
+
+Q: **Podaj definicję konkatencji języków**.
+
+A: Konkatenację języków \(L_1\) i \(L_2\) definiujemy jako konkatenację par słów z obu języków:
+
+\[L_1 \circ L_2 = \{uv: u \in L_1, v \in L_2\}\]
+
+Można przyjąć, że alfabetem języka wyjściowego jest sumą teoriomnogościową alfabetów łączonych.
