@@ -2,7 +2,7 @@
 
 Opracowanie teorii z przedmiotu Teoria Automatów i Języków Formalnych.
 
-Gotowy PDF (aktualizowany automatycznie): [http://165.227.130.192/taijf.pdf](http://165.227.130.192/taijf.pdf).
+Gotowy PDF: [https://sadlocha.eu/downloads/taijf.pdf](https://sadlocha.eu/downloads/taijf.pdf).
 
 Aktualna wersja tego dokumentu dostępna pod [https://github.com/Necior/mini-taijf](https://github.com/Necior/mini-taijf).
 
